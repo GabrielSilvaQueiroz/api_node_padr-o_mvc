@@ -1,6 +1,9 @@
 import { Router } from "express";
+import dotenv from 'dotenv';
+dotenv.config();
 
-import {getUsers, createUsers, deleteUsers} from './controllers/UserController.js'
+
+import { getUsers, createUsers, deleteUsers } from './controllers/UserController.js'
 
 const routes = Router()
 
